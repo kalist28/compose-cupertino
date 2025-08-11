@@ -62,7 +62,7 @@ mavenPublishing {
     pom {
         name.set(project.name)
         description.set(publishProperties.getProperty("description"))
-        url.set("https://github.com/schott12521/compose-cupertino")
+        url.set("https://github.com/kalist28/compose-cupertino")
 
         licenses {
             license {
@@ -81,11 +81,16 @@ mavenPublishing {
                 name.set("Scott Lanoue")
                 email.set("schott12521@gmail.com")
             }
+            developer {
+                id.set("kalist28")
+                name.set("Dmitry Kalistratov")
+                email.set("kalistratov.d.m@gmail.com")
+            }
         }
         scm {
-            connection.set("scm:git:https://github.com/schott12521/compose-cupertino.git")
-            developerConnection.set("scm:git:ssh://github.com/schott12521/compose-cupertino.git")
-            url.set("https://github.com/schott12521/compose-cupertino")
+            connection.set("scm:git:https://github.com/kalist28/compose-cupertino.git")
+            developerConnection.set("scm:git:ssh://github.com/kalist28/compose-cupertino.git")
+            url.set("https://github.com/kalist28/compose-cupertino")
         }
     }
 }

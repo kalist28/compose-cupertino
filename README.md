@@ -1,6 +1,6 @@
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.schott12521/cupertino/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.github.schott12521/cupertino)
 
-[![Main Workflow](https://github.com/schott12521/compose-cupertino/actions/workflows/buildAndPush.yml/badge.svg)](https://github.com/schott12521/schott12521/compose-cupertino/actions/workflows/buildAndPush.yml)
+[![Main Workflow](https://github.com/kalist28/compose-cupertino/actions/workflows/buildAndPush.yml/badge.svg)](https://github.com/schott12521/schott12521/compose-cupertino/actions/workflows/buildAndPush.yml)
 
 # compose-cupertino
 
@@ -19,7 +19,7 @@ Additionally this repo has automated builds to enable faster releases, to take a
 
 This package is published to Maven Central Repository: [cupertino-core on Maven Central](https://central.sonatype.com/artifact/io.github.schott12521/cupertino-core)
 
-Depend on the [latest version](https://github.com/schott12521/compose-cupertino/releases) by declaring this in libs.versions.toml:
+Depend on the [latest version](https://github.com/kalist28/compose-cupertino/releases) by declaring this in libs.versions.toml:
 
 ```
 cupertino = "$latestVersion"

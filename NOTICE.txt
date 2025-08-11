@@ -12,4 +12,4 @@ alexzhirkevich/compose-cupertino (https://github.com/alexzhirkevich/compose-cupe
 
 This software library was forked, and the original code has been modified.
 The library is being worked on at
-schott12521/compose-cupertino (https://github.com/schott12521/compose-cupertino).
+schott12521/compose-cupertino (https://github.com/kalist28/compose-cupertino).

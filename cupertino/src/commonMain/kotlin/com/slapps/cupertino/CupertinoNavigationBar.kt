@@ -50,8 +50,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.unit.dp
-import io.github.kalist28.cupertino.LocalContentColor
-import io.github.kalist28.cupertino.theme.CupertinoTheme
+import com.slapps.cupertino.theme.CupertinoTheme
 
 /**
  * Return true if container can't scroll forward

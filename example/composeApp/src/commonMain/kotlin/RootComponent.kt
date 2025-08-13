@@ -36,8 +36,8 @@ import cupertino.CupertinoWidgetsComponent
 import cupertino.DefaultCupertinoWidgetsComponent
 import icons.DefaultIconsComponent
 import icons.IconsComponent
-import io.github.kalist28.cupertino.theme.CupertinoColors
-import io.github.kalist28.cupertino.theme.systemBlue
+import com.slapps.cupertino.theme.CupertinoColors
+import com.slapps.cupertino.theme.systemBlue
 import kotlinx.serialization.Serializable
 import sections.DefaultSectionsComponent
 import sections.SectionsComponent

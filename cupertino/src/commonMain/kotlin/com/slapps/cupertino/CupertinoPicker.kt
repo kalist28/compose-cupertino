@@ -74,10 +74,7 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.util.fastFirstOrNull
-import io.github.kalist28.cupertino.CupertinoHapticFeedback
-import io.github.kalist28.cupertino.InternalCupertinoApi
-import io.github.kalist28.cupertino.LocalContentColor
-import io.github.kalist28.cupertino.theme.CupertinoTheme
+import com.slapps.cupertino.theme.CupertinoTheme
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlin.math.abs

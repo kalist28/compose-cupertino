@@ -74,9 +74,7 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import com.slapps.cupertino.section.CupertinoSectionDefaults
-import io.github.kalist28.cupertino.LocalContentColor
-import io.github.kalist28.cupertino.LocalTextStyle
-import io.github.kalist28.cupertino.theme.CupertinoTheme
+import com.slapps.cupertino.theme.CupertinoTheme
 import kotlin.math.max
 import kotlin.math.roundToInt
 

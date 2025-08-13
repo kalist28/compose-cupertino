@@ -24,9 +24,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Shape
 import androidx.compose.ui.window.DialogProperties
-import io.github.kalist28.cupertino.theme.CupertinoColors
-import io.github.kalist28.cupertino.theme.CupertinoTheme
-import io.github.kalist28.cupertino.theme.systemGray7
+import com.slapps.cupertino.theme.CupertinoColors
+import com.slapps.cupertino.theme.CupertinoTheme
+import com.slapps.cupertino.theme.systemGray7
 
 /**
  * Native analog for the compose [CupertinoAlertDialog].

@@ -17,14 +17,14 @@
 
 
 
-package io.github.kalist28.cupertino.theme
+package com.slapps.cupertino.theme
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.ReadOnlyComposable
 import androidx.compose.ui.graphics.Color
-import io.github.kalist28.cupertino.LocalContentColor
-import io.github.kalist28.cupertino.Accessibility
-import io.github.kalist28.cupertino.isHighContrastEnabled
+import com.slapps.cupertino.LocalContentColor
+import com.slapps.cupertino.Accessibility
+import com.slapps.cupertino.isHighContrastEnabled
 
 object CupertinoColors
 

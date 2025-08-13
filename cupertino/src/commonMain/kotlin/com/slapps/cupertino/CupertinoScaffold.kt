@@ -52,9 +52,7 @@ import androidx.compose.ui.util.fastForEach
 import androidx.compose.ui.util.fastMap
 import androidx.compose.ui.util.fastMapNotNull
 import androidx.compose.ui.util.fastMaxOfOrNull
-import io.github.kalist28.cupertino.Accessibility
-import io.github.kalist28.cupertino.isReduceTransparencyEnabled
-import io.github.kalist28.cupertino.theme.CupertinoTheme
+import com.slapps.cupertino.theme.CupertinoTheme
 
 /**
  * Scaffold implements the basic cupertino and material design visual layout structure.
@@ -77,9 +75,9 @@ import io.github.kalist28.cupertino.theme.CupertinoTheme
  * [bottomBar] are not present, as the scaffold expect [topBar]/[bottomBar] to handle insets
  * instead
  * @param appBarsBlurAlpha app bars opacity level. Default lvl is similar to iOS one and
- * supports [isReduceTransparencyEnabled]
+ * supports [Accessibility.isReduceTransparencyEnabled]
  * @param appBarsBlurAlpha app bars blur radius. Default radius is similar to iOS one and
- * supports [isReduceTransparencyEnabled]
+ * supports [Accessibility.isReduceTransparencyEnabled]
  * @param content content of the screen. The lambda receives a [PaddingValues] that should be
  * applied to the content root via [Modifier.padding] and [Modifier.consumeWindowInsets] to
  * properly offset top and bottom bars. If using [Modifier.verticalScroll] or lazy lists,

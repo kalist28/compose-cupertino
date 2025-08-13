@@ -17,7 +17,7 @@
 
 
 
-package io.github.kalist28.cupertino
+package com.slapps.cupertino
 
 import androidx.compose.ui.graphics.Color
 import kotlinx.cinterop.ExperimentalForeignApi

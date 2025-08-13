@@ -17,10 +17,13 @@
 
 
 
-package io.github.kalist28.cupertino
+package com.slapps.cupertino
+
+import platform.UIKit.UIAccessibilityDarkerSystemColorsEnabled
+import platform.UIKit.UIAccessibilityIsReduceTransparencyEnabled
 
 actual val Accessibility.isHighContrastEnabled: Boolean
-    get() = false
+    get() = UIAccessibilityDarkerSystemColorsEnabled()
 
 actual val Accessibility.isReduceTransparencyEnabled: Boolean
-    get() = false
+    get() = UIAccessibilityIsReduceTransparencyEnabled()

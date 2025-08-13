@@ -88,11 +88,10 @@ import com.slapps.cupertino.section.CupertinoSectionDefaults
 import com.slapps.cupertino.section.CupertinoSectionTokens
 import com.slapps.cupertino.section.SectionStyle
 import com.slapps.cupertino.theme.BrightSeparatorColor
-import io.github.kalist28.cupertino.LocalContentColor
-import io.github.kalist28.cupertino.theme.CupertinoColors
-import io.github.kalist28.cupertino.theme.CupertinoTheme
-import io.github.kalist28.cupertino.theme.systemGray7
-import io.github.kalist28.cupertino.theme.systemRed
+import com.slapps.cupertino.theme.CupertinoColors
+import com.slapps.cupertino.theme.CupertinoTheme
+import com.slapps.cupertino.theme.systemGray7
+import com.slapps.cupertino.theme.systemRed
 import kotlin.math.max
 import kotlin.math.min
 

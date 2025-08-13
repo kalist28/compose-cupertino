@@ -53,7 +53,7 @@ import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
-import io.github.kalist28.cupertino.LocalContentColor
+import com.slapps.cupertino.LocalContentColor
 import com.slapps.cupertino.CupertinoIcon
 import com.slapps.cupertino.CupertinoIconDefaults
 import com.slapps.cupertino.copy
@@ -61,7 +61,7 @@ import com.slapps.cupertino.icons.CupertinoIcons
 import com.slapps.cupertino.icons.filled.XmarkCircle
 import com.slapps.cupertino.icons.outlined.ChevronBackward
 import com.slapps.cupertino.icons.outlined.ChevronForward
-import io.github.kalist28.cupertino.theme.CupertinoTheme
+import com.slapps.cupertino.theme.CupertinoTheme
 
 @Immutable
 object CupertinoSectionDefaults {

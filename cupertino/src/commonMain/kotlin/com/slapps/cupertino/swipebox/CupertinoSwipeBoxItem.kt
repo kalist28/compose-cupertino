@@ -45,15 +45,15 @@ import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.zIndex
-import io.github.kalist28.cupertino.LocalContentColor
+import com.slapps.cupertino.LocalContentColor
 import com.slapps.cupertino.CupertinoIcon
 import com.slapps.cupertino.CupertinoText
 import com.slapps.cupertino.ExperimentalCupertinoApi
 import com.slapps.cupertino.ProvideTextStyle
-import io.github.kalist28.cupertino.cupertinoTween
-import io.github.kalist28.cupertino.theme.CupertinoColors
-import io.github.kalist28.cupertino.theme.CupertinoTheme
-import io.github.kalist28.cupertino.theme.White
+import com.slapps.cupertino.cupertinoTween
+import com.slapps.cupertino.theme.CupertinoColors
+import com.slapps.cupertino.theme.CupertinoTheme
+import com.slapps.cupertino.theme.White
 import kotlinx.coroutines.launch
 
 /**

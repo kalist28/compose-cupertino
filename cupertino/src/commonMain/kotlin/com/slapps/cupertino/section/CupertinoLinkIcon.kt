@@ -38,9 +38,9 @@ import androidx.compose.ui.graphics.vector.rememberVectorPainter
 import androidx.compose.ui.unit.dp
 import com.slapps.cupertino.CupertinoIcon
 import com.slapps.cupertino.CupertinoIconDefaults
-import io.github.kalist28.cupertino.theme.CupertinoColors
-import io.github.kalist28.cupertino.theme.CupertinoTheme
-import io.github.kalist28.cupertino.theme.White
+import com.slapps.cupertino.theme.CupertinoColors
+import com.slapps.cupertino.theme.CupertinoTheme
+import com.slapps.cupertino.theme.White
 
 /**
  * Icon with colored background and rounded corners often used in [CupertinoSection] label

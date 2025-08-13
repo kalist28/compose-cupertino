@@ -17,11 +17,11 @@
 
 
 
-package io.github.kalist28.cupertino.theme
+package com.slapps.cupertino.theme
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.ReadOnlyComposable
-import io.github.kalist28.cupertino.InternalCupertinoApi
+import com.slapps.cupertino.InternalCupertinoApi
 
 @OptIn(InternalCupertinoApi::class)
 object CupertinoTheme {

@@ -70,7 +70,7 @@ import com.slapps.cupertino.section.sectionTitle
 import com.slapps.cupertino.section.switch
 import com.slapps.cupertino.section.textField
 import com.slapps.cupertino.section.timePicker
-import io.github.kalist28.cupertino.theme.CupertinoTheme
+import com.slapps.cupertino.theme.CupertinoTheme
 
 @OptIn(ExperimentalCupertinoApi::class)
 @Composable

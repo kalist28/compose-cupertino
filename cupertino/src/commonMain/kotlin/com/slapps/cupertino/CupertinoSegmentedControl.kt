@@ -67,12 +67,11 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.util.fastForEach
 import com.slapps.cupertino.section.CupertinoSectionDefaults
+import com.slapps.cupertino.theme.CupertinoColors
+import com.slapps.cupertino.theme.CupertinoTheme
+import com.slapps.cupertino.theme.White
 import com.slapps.cupertino.theme.isDark
-import io.github.kalist28.cupertino.cupertinoTween
-import io.github.kalist28.cupertino.theme.CupertinoColors
-import io.github.kalist28.cupertino.theme.CupertinoTheme
-import io.github.kalist28.cupertino.theme.White
-import io.github.kalist28.cupertino.theme.systemGray8
+import com.slapps.cupertino.theme.systemGray8
 
 /**
  * Sliding segmented control

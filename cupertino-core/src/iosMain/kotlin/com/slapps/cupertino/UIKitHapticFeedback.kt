@@ -17,7 +17,7 @@
 
 
 
-package io.github.kalist28.cupertino
+package com.slapps.cupertino
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember

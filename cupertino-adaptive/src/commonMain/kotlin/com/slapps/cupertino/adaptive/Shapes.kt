@@ -23,7 +23,7 @@ import androidx.compose.foundation.shape.CornerBasedShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.runtime.Immutable
 import androidx.compose.ui.unit.dp
-import io.github.kalist28.cupertino.theme.Shapes as CupertinoShapes
+import com.slapps.cupertino.theme.Shapes as CupertinoShapes
 import androidx.compose.material3.Shapes as MaterialShapes
 @Immutable
 class Shapes(

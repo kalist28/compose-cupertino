@@ -15,12 +15,12 @@
  * limitations under the License.
  */
 
-package io.github.kalist28.cupertino
 
-import androidx.compose.runtime.Composable
-import io.github.kalist28.cupertino.InternalCupertinoApi
 
-@Composable
-@InternalCupertinoApi
-actual fun SystemBarAppearance(dark: Boolean) {
-}
+package com.slapps.cupertino
+
+actual val Accessibility.isHighContrastEnabled: Boolean
+    get() = false
+
+actual val Accessibility.isReduceTransparencyEnabled: Boolean
+    get() = false

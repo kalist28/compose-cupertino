@@ -44,7 +44,7 @@ import com.slapps.cupertino.CupertinoButtonDefaults.plainButtonColors
 import com.slapps.cupertino.CupertinoButtonDefaults.tintedButtonColors
 import com.slapps.cupertino.CupertinoButtonSize
 import com.slapps.cupertino.ExperimentalCupertinoApi
-import io.github.kalist28.cupertino.theme.CupertinoTheme
+import com.slapps.cupertino.theme.CupertinoTheme
 
 /**
  * Adaptive button that takes [Button] or borderedProminent [CupertinoButton] appearance

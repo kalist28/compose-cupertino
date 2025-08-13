@@ -39,7 +39,7 @@ import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
-import io.github.kalist28.cupertino.LocalContentColor
+import com.slapps.cupertino.LocalContentColor
 import com.slapps.cupertino.CupertinoHorizontalDivider
 import com.slapps.cupertino.CupertinoIcon
 import com.slapps.cupertino.CupertinoIconDefaults
@@ -47,7 +47,7 @@ import com.slapps.cupertino.ProvideTextStyle
 import com.slapps.cupertino.icons.CupertinoIcons
 import com.slapps.cupertino.icons.outlined.ChevronBackward
 import com.slapps.cupertino.icons.outlined.ChevronForward
-import io.github.kalist28.cupertino.theme.CupertinoTheme
+import com.slapps.cupertino.theme.CupertinoTheme
 
 @Composable
 internal fun SectionTitle(

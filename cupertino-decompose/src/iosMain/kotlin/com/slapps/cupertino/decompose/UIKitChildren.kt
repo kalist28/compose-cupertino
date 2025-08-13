@@ -44,11 +44,11 @@ import androidx.compose.ui.window.ComposeUIViewController
 import com.arkivanov.decompose.Child
 import com.arkivanov.decompose.router.stack.ChildStack
 import com.arkivanov.decompose.value.Value
-import io.github.kalist28.cupertino.InternalCupertinoApi
-import io.github.kalist28.cupertino.SystemBarAppearance
-import io.github.kalist28.cupertino.rememberCupertinoHapticFeedback
-import io.github.kalist28.cupertino.theme.CupertinoTheme
-import io.github.kalist28.cupertino.theme.isInitializedCupertinoTheme
+import com.slapps.cupertino.InternalCupertinoApi
+import com.slapps.cupertino.SystemBarAppearance
+import com.slapps.cupertino.rememberCupertinoHapticFeedback
+import com.slapps.cupertino.theme.CupertinoTheme
+import com.slapps.cupertino.theme.isInitializedCupertinoTheme
 import kotlinx.cinterop.ExperimentalForeignApi
 import platform.UIKit.UIGestureRecognizer
 import platform.UIKit.UIGestureRecognizerDelegateProtocol

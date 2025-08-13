@@ -39,7 +39,7 @@ import com.slapps.cupertino.CupertinoButtonDefaults.plainButtonColors
 import com.slapps.cupertino.icons.CupertinoIcons
 import com.slapps.cupertino.icons.outlined.ChevronBackward
 import com.slapps.cupertino.icons.outlined.ChevronForward
-import io.github.kalist28.cupertino.theme.CupertinoTheme
+import com.slapps.cupertino.theme.CupertinoTheme
 
 @Composable
 @ExperimentalCupertinoApi

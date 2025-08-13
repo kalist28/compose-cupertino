@@ -36,11 +36,10 @@ import com.slapps.cupertino.adaptive.ExperimentalAdaptiveApi
 import com.slapps.cupertino.adaptive.MaterialThemeSpec
 import com.slapps.cupertino.adaptive.Theme
 import com.slapps.cupertino.decompose.cupertinoPredictiveBackAnimation
-import io.github.kalist28.cupertino.theme.darkColorScheme
-import io.github.kalist28.cupertino.theme.lightColorScheme
+import com.slapps.cupertino.theme.darkColorScheme
+import com.slapps.cupertino.theme.lightColorScheme
 import cupertino.CupertinoWidgetsScreen
 import icons.IconsScreen
-import io.github.kalist28.cupertino.theme.Shapes
 import sections.SectionsScreen
 
 
@@ -137,7 +136,7 @@ fun GeneratedAdaptiveTheme(
             colorScheme = if (useDarkTheme)
                 darkColorScheme(accent = primaryColor)
             else lightColorScheme(accent = primaryColor),
-            shapes = Shapes(
+            shapes = com.slapps.cupertino.theme.Shapes(
                 extraSmall = shapes.extraSmall,
                 small = shapes.small,
                 medium = shapes.medium,

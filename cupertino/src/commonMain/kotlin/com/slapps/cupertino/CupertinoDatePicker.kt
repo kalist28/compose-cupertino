@@ -97,12 +97,10 @@ import com.slapps.cupertino.icons.CupertinoIcons
 import com.slapps.cupertino.icons.outlined.ChevronBackward
 import com.slapps.cupertino.icons.outlined.ChevronForward
 import com.slapps.cupertino.section.CupertinoSectionTokens
-import io.github.kalist28.cupertino.InternalCupertinoApi
-import io.github.kalist28.cupertino.LocalContentColor
-import io.github.kalist28.cupertino.theme.CupertinoColors
-import io.github.kalist28.cupertino.theme.CupertinoTheme
-import io.github.kalist28.cupertino.theme.DefaultAlpha
-import io.github.kalist28.cupertino.theme.White
+import com.slapps.cupertino.theme.CupertinoColors
+import com.slapps.cupertino.theme.CupertinoTheme
+import com.slapps.cupertino.theme.DefaultAlpha
+import com.slapps.cupertino.theme.White
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
 import kotlin.math.ceil

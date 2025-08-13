@@ -17,14 +17,11 @@
 
 
 
-package io.github.kalist28.cupertino
+package com.slapps.cupertino
 
-import io.github.kalist28.cupertino.Accessibility
-import platform.UIKit.UIAccessibilityDarkerSystemColorsEnabled
-import platform.UIKit.UIAccessibilityIsReduceTransparencyEnabled
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.hapticfeedback.HapticFeedback
+import androidx.compose.ui.platform.LocalHapticFeedback
 
-actual val Accessibility.isHighContrastEnabled: Boolean
-    get() = UIAccessibilityDarkerSystemColorsEnabled()
-
-actual val Accessibility.isReduceTransparencyEnabled: Boolean
-    get() = UIAccessibilityIsReduceTransparencyEnabled()
+@Composable
+actual fun rememberCupertinoHapticFeedback(): HapticFeedback = LocalHapticFeedback.current

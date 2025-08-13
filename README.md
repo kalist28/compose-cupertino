@@ -1,4 +1,5 @@
-[![Maven Central](https://img.shields.io/maven-central/v/io.github.kalist28/cupertino)](https://maven-badges.herokuapp.com/maven-central/io.github.kalist28/cupertino)
+[![compose-mp-version](https://img.shields.io/badge/compose--multiplatform-1.8.2-blue)](https://github.com/JetBrains/compose-multiplatform)
+[![kotlin-version](https://img.shields.io/badge/kotlin-2.2.0-purple)](https://github.com/JetBrains/kotlin)
 
 [![Main Workflow](https://github.com/kalist28/compose-cupertino/actions/workflows/buildAndPush.yml/badge.svg)](https://github.com/kalist28/compose-cupertino/actions/workflows/buildAndPush.yml)
 
@@ -14,6 +15,7 @@ This package is published to Maven Central Repository: [cupertino-core on Maven 
 
 Depend on the [latest version](https://github.com/kalist28/compose-cupertino/releases) by declaring this in libs.versions.toml:
 
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.kalist28/cupertino)](https://maven-badges.herokuapp.com/maven-central/io.github.kalist28/cupertino)
 ```
 cupertino = "$latestVersion"
 

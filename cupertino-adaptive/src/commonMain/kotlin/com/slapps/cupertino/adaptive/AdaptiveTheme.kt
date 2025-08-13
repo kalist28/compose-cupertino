@@ -27,18 +27,18 @@ import androidx.compose.material3.Shapes as MaterialShapes
 import androidx.compose.material3.ColorScheme as MaterialColorScheme
 import androidx.compose.material3.Typography as MaterialTypography
 
-import com.slapps.cupertino.theme.ColorScheme as CupertinoColorScheme
-import com.slapps.cupertino.theme.Typography as CupertinoTypography
-import com.slapps.cupertino.theme.Shapes as CupertinoShapes
-import com.slapps.cupertino.theme.CupertinoTheme
-import com.slapps.cupertino.theme.lightColorScheme as cupertinoLightColorScheme
+import io.github.kalist28.cupertino.theme.ColorScheme as CupertinoColorScheme
+import io.github.kalist28.cupertino.theme.Typography as CupertinoTypography
+import io.github.kalist28.cupertino.theme.Shapes as CupertinoShapes
+import io.github.kalist28.cupertino.theme.CupertinoTheme
+import io.github.kalist28.cupertino.theme.lightColorScheme as cupertinoLightColorScheme
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.Immutable
 import androidx.compose.runtime.staticCompositionLocalOf
-import com.slapps.cupertino.LocalContentColorProvider
-import com.slapps.cupertino.LocalTextStyleProvider
+import io.github.kalist28.cupertino.LocalContentColorProvider
+import io.github.kalist28.cupertino.LocalTextStyleProvider
 import com.slapps.cupertino.CupertinoIcon
 import com.slapps.cupertino.CupertinoText
 

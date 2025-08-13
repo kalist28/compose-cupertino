@@ -84,15 +84,18 @@ import androidx.compose.ui.util.fastForEach
 import androidx.compose.ui.util.fastForEachIndexed
 import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
-import com.slapps.cupertino.theme.isDark
+import io.github.kalist28.cupertino.theme.isDark
 import com.slapps.cupertino.CupertinoDialogsTokens.AlertDialogTitleMessageSpacing
 import com.slapps.cupertino.section.CupertinoSectionTokens
 import com.slapps.cupertino.theme.BrightSeparatorColor
-import com.slapps.cupertino.theme.CupertinoColors
-import com.slapps.cupertino.theme.CupertinoTheme
-import com.slapps.cupertino.theme.systemBlue
-import com.slapps.cupertino.theme.systemGray7
-import com.slapps.cupertino.theme.systemRed
+import io.github.kalist28.cupertino.LocalContentColor
+import io.github.kalist28.cupertino.LocalTextStyle
+import io.github.kalist28.cupertino.cupertinoTween
+import io.github.kalist28.cupertino.theme.CupertinoColors
+import io.github.kalist28.cupertino.theme.CupertinoTheme
+import io.github.kalist28.cupertino.theme.systemBlue
+import io.github.kalist28.cupertino.theme.systemGray7
+import io.github.kalist28.cupertino.theme.systemRed
 
 /**
  * Style of the Cupertino alert action buttons

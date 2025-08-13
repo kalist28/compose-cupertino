@@ -94,10 +94,12 @@ import androidx.compose.ui.unit.offset
 import androidx.compose.ui.util.fastFirstOrNull
 import androidx.compose.ui.util.fastForEach
 import androidx.compose.ui.util.lerp
-import com.slapps.cupertino.theme.CupertinoColors
-import com.slapps.cupertino.theme.CupertinoTheme
-import com.slapps.cupertino.theme.White
-import com.slapps.cupertino.theme.systemGray
+import io.github.kalist28.cupertino.CupertinoHapticFeedback
+import io.github.kalist28.cupertino.InternalCupertinoApi
+import io.github.kalist28.cupertino.theme.CupertinoColors
+import io.github.kalist28.cupertino.theme.CupertinoTheme
+import io.github.kalist28.cupertino.theme.White
+import io.github.kalist28.cupertino.theme.systemGray
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.coroutineScope

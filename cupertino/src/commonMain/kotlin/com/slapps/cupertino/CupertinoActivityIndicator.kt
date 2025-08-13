@@ -44,8 +44,9 @@ import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.isSpecified
-import com.slapps.cupertino.theme.CupertinoColors
-import com.slapps.cupertino.theme.Gray
+import io.github.kalist28.cupertino.cupertinoTween
+import io.github.kalist28.cupertino.theme.CupertinoColors
+import io.github.kalist28.cupertino.theme.Gray
 import kotlin.math.roundToInt
 
 /**

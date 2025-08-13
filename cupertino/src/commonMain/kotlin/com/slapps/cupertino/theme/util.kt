@@ -21,6 +21,7 @@ package com.slapps.cupertino.theme
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.ReadOnlyComposable
+import io.github.kalist28.cupertino.theme.CupertinoTheme
 
 @Composable
 @ReadOnlyComposable

@@ -47,7 +47,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.slapps.cupertino.theme.CupertinoTheme
+import io.github.kalist28.cupertino.InternalCupertinoApi
+import io.github.kalist28.cupertino.theme.CupertinoTheme
 
 /**
  * Creates a [CupertinoTimePickerState] for a time picker that is remembered across compositions

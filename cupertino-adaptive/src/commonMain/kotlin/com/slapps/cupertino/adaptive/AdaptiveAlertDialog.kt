@@ -39,8 +39,8 @@ import com.slapps.cupertino.AlertDialogActionsScope
 import com.slapps.cupertino.CupertinoAlertDialog
 import com.slapps.cupertino.CupertinoDialogsDefaults
 import com.slapps.cupertino.ExperimentalCupertinoApi
-import com.slapps.cupertino.theme.CupertinoColors
-import com.slapps.cupertino.theme.systemGray7
+import io.github.kalist28.cupertino.theme.CupertinoColors
+import io.github.kalist28.cupertino.theme.systemGray7
 
 @ExperimentalAdaptiveApi
 @OptIn(ExperimentalCupertinoApi::class)

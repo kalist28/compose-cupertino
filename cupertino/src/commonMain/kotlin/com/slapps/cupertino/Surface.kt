@@ -41,7 +41,8 @@ import androidx.compose.ui.semantics.isTraversalGroup
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.slapps.cupertino.theme.CupertinoTheme
+import io.github.kalist28.cupertino.LocalContentColor
+import io.github.kalist28.cupertino.theme.CupertinoTheme
 
 
 @Composable

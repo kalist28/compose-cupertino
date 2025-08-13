@@ -33,7 +33,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.UIKitInteropInteractionMode
 import androidx.compose.ui.viewinterop.UIKitInteropProperties
 import androidx.compose.ui.viewinterop.UIKitView
-import com.slapps.cupertino.theme.CupertinoTheme
+import io.github.kalist28.cupertino.InternalCupertinoApi
+import io.github.kalist28.cupertino.theme.CupertinoTheme
+import io.github.kalist28.cupertino.toUIColor
 import kotlinx.cinterop.BetaInteropApi
 import kotlinx.cinterop.ExperimentalForeignApi
 import kotlinx.cinterop.ObjCAction

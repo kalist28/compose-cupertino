@@ -17,7 +17,7 @@
 
 
 
-package com.slapps.cupertino
+package io.github.kalist28.cupertino
 
 import androidx.compose.animation.core.CubicBezierEasing
 import androidx.compose.animation.core.Easing

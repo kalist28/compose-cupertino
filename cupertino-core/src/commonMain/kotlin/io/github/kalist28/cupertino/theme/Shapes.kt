@@ -17,7 +17,7 @@
 
 
 
-package com.slapps.cupertino.theme
+package io.github.kalist28.cupertino.theme
 
 import androidx.compose.foundation.shape.CornerBasedShape
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -25,7 +25,7 @@ import androidx.compose.runtime.Immutable
 import androidx.compose.runtime.Stable
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.unit.dp
-import com.slapps.cupertino.InternalCupertinoApi
+import io.github.kalist28.cupertino.InternalCupertinoApi
 
 @Stable
 class Shapes(

@@ -36,8 +36,8 @@ import com.slapps.cupertino.AlertActionStyle
 import com.slapps.cupertino.CupertinoAlertDialogNative
 import com.slapps.cupertino.CupertinoDialogsDefaults
 import com.slapps.cupertino.NativeAlertDialogActionsScope
-import com.slapps.cupertino.theme.CupertinoColors
-import com.slapps.cupertino.theme.systemGray7
+import io.github.kalist28.cupertino.theme.CupertinoColors
+import io.github.kalist28.cupertino.theme.systemGray7
 
 @ExperimentalAdaptiveApi
 @Composable

@@ -19,9 +19,11 @@
 
 @file:OptIn(InternalCupertinoApi::class)
 
-package com.slapps.cupertino
+package io.github.kalist28.cupertino
 
 import androidx.compose.ui.hapticfeedback.HapticFeedbackType
+import io.github.kalist28.cupertino.CupertinoHapticFeedback
+import io.github.kalist28.cupertino.InternalCupertinoApi
 
 val HapticFeedbackType.Companion.SelectionChanged: HapticFeedbackType
     get() = CupertinoHapticFeedback.SelectionChanged

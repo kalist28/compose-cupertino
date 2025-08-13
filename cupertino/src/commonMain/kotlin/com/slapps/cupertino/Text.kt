@@ -37,12 +37,14 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.TextUnit
+import io.github.kalist28.cupertino.LocalContentColor
+import io.github.kalist28.cupertino.LocalTextStyle
 
 /**
  * High level element that displays text and provides semantics / accessibility information.
  *
- * The default [style] uses the [LocalTextStyle] provided by the [MaterialTheme] / components. If
- * you are setting your own style, you may want to consider first retrieving [LocalTextStyle],
+ * The default [style] uses the [io.github.kalist28.cupertino.LocalTextStyle] provided by the [MaterialTheme] / components. If
+ * you are setting your own style, you may want to consider first retrieving [io.github.kalist28.cupertino.LocalTextStyle],
  * and using [TextStyle.copy] to keep any theme defined attributes, only modifying the specific
  * attributes you want to override.
  *
@@ -54,12 +56,12 @@ import androidx.compose.ui.unit.TextUnit
  * from [style] will be used instead.
  *
  * Additionally, for [color], if [color] is not set, and [style] does not have a color, then
- * [LocalContentColor] will be used.
+ * [io.github.kalist28.cupertino.LocalContentColor] will be used.
  *
  * @param text the text to be displayed
  * @param modifier the [Modifier] to be applied to this layout node
  * @param color [Color] to apply to the text. If [Color.Unspecified], and [style] has no color set,
- * this will be [LocalContentColor].
+ * this will be [io.github.kalist28.cupertino.LocalContentColor].
  * @param fontSize the size of glyphs to use when painting the text. See [TextStyle.fontSize].
  * @param fontStyle the typeface variant to use when drawing the letters (e.g., italic).
  * See [TextStyle.fontStyle].

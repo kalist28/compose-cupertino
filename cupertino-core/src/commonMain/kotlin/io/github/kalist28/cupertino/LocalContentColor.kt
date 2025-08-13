@@ -17,37 +17,39 @@
 
 
 
-package com.slapps.cupertino
+package io.github.kalist28.cupertino
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.ProvidableCompositionLocal
+import androidx.compose.runtime.ReadOnlyComposable
 import androidx.compose.runtime.compositionLocalOf
 import androidx.compose.runtime.staticCompositionLocalOf
-import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.graphics.Color
 
 /**
- * Interoperable composition local for text style.
+ * Interoperable composition local for content color.
  *
  * Depending on current theme, this local will point to the
- * - internal LocalTextStyle - for CupertinoTheme
- * - androidx.compose.material3.LocalTextStyle - for AdaptiveTheme
+ * - internal LocalContentColor - for CupertinoTheme
+ * - androidx.compose.matarial3.LocalContentColor - for AdaptiveTheme
  *
- * It used as source of local text style in all cupertino widgets.
+ * It used as source of local content color in all cupertino widgets.
  * And therefore for AdaptiveTheme there is no difference between using composables like material3
- * Text and CupertinoText where LocalTextStyle.current is passed as a default parameter.
+ * Icon and CupertinoIcon where LocalContentColor.current is passed as a default parameter.
  *
- * You can provide your own local (for ex. basic Material local) using [LocalTextStyleProvider]
+ * You can provide your own local (for ex. basic Material local) using [LocalContentColorProvider]
  * */
-val LocalTextStyle: ProvidableCompositionLocal<TextStyle>
+val LocalContentColor: ProvidableCompositionLocal<Color>
     @Composable
-    get() = LocalTextStyleProvider.current
+    @ReadOnlyComposable
+    get() = LocalContentColorProvider.current
 
-val LocalTextStyleProvider =
+val LocalContentColorProvider =
     staticCompositionLocalOf {
-        EmptyLocalTextStyle
+        EmptyLocalColor
     }
 
-private val EmptyLocalTextStyle =
+private val EmptyLocalColor =
     compositionLocalOf {
-        TextStyle()
+        Color.Black
     }

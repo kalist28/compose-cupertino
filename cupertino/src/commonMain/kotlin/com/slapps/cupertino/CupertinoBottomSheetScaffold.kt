@@ -20,7 +20,6 @@
 
 package com.slapps.cupertino
 
-import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.foundation.background
 import androidx.compose.foundation.gestures.Orientation
@@ -68,10 +67,11 @@ import androidx.compose.ui.unit.DpSize
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.toSize
 import androidx.compose.ui.util.fastMap
-import com.slapps.cupertino.theme.Black
-import com.slapps.cupertino.theme.CupertinoColors
-import com.slapps.cupertino.theme.CupertinoTheme
-import com.slapps.cupertino.theme.DefaultAlpha
+import io.github.kalist28.cupertino.LocalContentColor
+import io.github.kalist28.cupertino.theme.Black
+import io.github.kalist28.cupertino.theme.CupertinoColors
+import io.github.kalist28.cupertino.theme.CupertinoTheme
+import io.github.kalist28.cupertino.theme.DefaultAlpha
 import kotlinx.coroutines.launch
 import kotlin.math.max
 import kotlin.math.roundToInt

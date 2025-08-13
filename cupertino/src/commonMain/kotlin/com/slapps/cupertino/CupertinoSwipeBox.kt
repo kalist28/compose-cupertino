@@ -65,6 +65,7 @@ import com.slapps.cupertino.swipebox.CupertinoSwipeBoxActionsBuilder
 import com.slapps.cupertino.swipebox.LocalSwipeBoxItemFullSwipe
 import com.slapps.cupertino.swipebox.SwipeBoxStates
 import com.slapps.cupertino.swipebox.rememberCupertinoSwipeBoxState
+import io.github.kalist28.cupertino.InternalCupertinoApi
 import kotlin.math.roundToInt
 
 // TODO clean this up

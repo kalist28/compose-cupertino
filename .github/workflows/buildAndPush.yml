@@ -3,7 +3,8 @@ name: Build, Publish, and Release
 on:
   push:
     branches:
-      - main
+      - develop
+  workflow_dispatch:
 
 jobs:
   infer-release:
@@ -73,7 +74,7 @@ jobs:
       - name: "⚙️ Setup Gradle"
         uses: gradle/actions/setup-gradle@v3
         with:
-          gradle-version: 8.10.2
+          gradle-version: 8.13
 
       - name: "🌎 Publish with Gradle"
         run: ./gradlew publish --no-configuration-cache -Pversion=$VERSION --build-cache --daemon --parallel --scan

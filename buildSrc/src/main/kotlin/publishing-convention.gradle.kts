@@ -46,7 +46,7 @@ val javadocJar by tasks.registering(Jar::class) {
 }
 
 mavenPublishing {
-    publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL, automaticRelease = true)
+    publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL, automaticRelease = false)
 
     coordinates(project.group as String, project.name, project.version as String)
     configure(
@@ -56,7 +56,7 @@ mavenPublishing {
         )
     )
 
-    if (isGithubActions)
+   if (isGithubActions)
         signAllPublications()
 
     pom {

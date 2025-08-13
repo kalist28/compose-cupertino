@@ -58,12 +58,22 @@ jobs:
   build-and-publish:
     runs-on: macos-latest
     needs: infer-release
+    environment: Maven
 
     steps:
       - name: "✅ Checkout code"
         uses: actions/checkout@v4
         with:
           fetch-depth: 1
+
+      - name: "🔎 Preflight: check signing secrets"
+        run: |
+          test -n "${ORG_GRADLE_PROJECT_signingInMemoryKey}" || { echo "Signing key is EMPTY"; exit 1; }
+          test -n "${ORG_GRADLE_PROJECT_signingInMemoryKeyPassword}" || { echo "Signing password is EMPTY"; exit 1; }
+          echo "Signing key length: ${#ORG_GRADLE_PROJECT_signingInMemoryKey}"
+        env:
+          ORG_GRADLE_PROJECT_signingInMemoryKey: ${{ secrets.SIGNING_KEY }}
+          ORG_GRADLE_PROJECT_signingInMemoryKeyPassword: ${{ secrets.SIGNING_PASSWORD }}
 
       - name: "⚙️ Set up JDK 21"
         uses: actions/setup-java@v4

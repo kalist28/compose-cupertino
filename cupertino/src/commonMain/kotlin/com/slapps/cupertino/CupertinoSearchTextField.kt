@@ -74,11 +74,11 @@ import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.Velocity
 import androidx.compose.ui.unit.dp
-import io.github.kalist28.cupertino.theme.isDark
 import com.slapps.cupertino.CupertinoButtonDefaults.plainButtonColors
 import com.slapps.cupertino.icons.CupertinoIcons
 import com.slapps.cupertino.icons.outlined.MagnifyingGlass
 import com.slapps.cupertino.section.CupertinoSectionTokens
+import com.slapps.cupertino.theme.isDark
 import io.github.kalist28.cupertino.LocalContentColor
 import io.github.kalist28.cupertino.LocalTextStyle
 import io.github.kalist28.cupertino.theme.CupertinoColors

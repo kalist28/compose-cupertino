@@ -41,6 +41,7 @@ import io.github.kalist28.cupertino.LocalContentColorProvider
 import io.github.kalist28.cupertino.LocalTextStyleProvider
 import com.slapps.cupertino.CupertinoIcon
 import com.slapps.cupertino.CupertinoText
+import com.slapps.cupertino.theme.CupertinoTheme
 
 import androidx.compose.material3.LocalContentColor as MaterialLocalContentColor
 import androidx.compose.material3.LocalTextStyle as MaterialLocalTextStyle

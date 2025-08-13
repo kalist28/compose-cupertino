@@ -84,10 +84,10 @@ import androidx.compose.ui.util.fastForEach
 import androidx.compose.ui.util.fastForEachIndexed
 import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
-import io.github.kalist28.cupertino.theme.isDark
 import com.slapps.cupertino.CupertinoDialogsTokens.AlertDialogTitleMessageSpacing
 import com.slapps.cupertino.section.CupertinoSectionTokens
 import com.slapps.cupertino.theme.BrightSeparatorColor
+import com.slapps.cupertino.theme.isDark
 import io.github.kalist28.cupertino.LocalContentColor
 import io.github.kalist28.cupertino.LocalTextStyle
 import io.github.kalist28.cupertino.cupertinoTween

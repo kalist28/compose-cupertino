@@ -58,6 +58,7 @@ jobs:
   build-and-publish:
     runs-on: macos-latest
     needs: infer-release
+    environment: Maven
 
     steps:
       - name: "✅ Checkout code"

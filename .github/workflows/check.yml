@@ -7,8 +7,7 @@ on:
 jobs:
   infer-release:
     runs-on: ubuntu-latest
-    outputs:
-      version: ${{ steps.nyx.outputs.version }}
+    environment: Maven
       
     steps:
       - name: "🔎 Preflight: check signing secrets"

@@ -25,13 +25,23 @@ import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.platform.LocalHapticFeedback
-import com.slapps.cupertino.LocalContentColor
-import com.slapps.cupertino.LocalTextStyle
+import io.github.kalist28.cupertino.LocalContentColor
+import io.github.kalist28.cupertino.LocalTextStyle
 import com.slapps.cupertino.ExperimentalCupertinoApi
-import com.slapps.cupertino.InternalCupertinoApi
-import com.slapps.cupertino.SystemBarAppearance
-import com.slapps.cupertino.rememberCupertinoHapticFeedback
+import io.github.kalist28.cupertino.InternalCupertinoApi
+import io.github.kalist28.cupertino.SystemBarAppearance
+import io.github.kalist28.cupertino.rememberCupertinoHapticFeedback
 import com.slapps.cupertino.rememberCupertinoIndication
+import io.github.kalist28.cupertino.theme.ColorScheme
+import io.github.kalist28.cupertino.theme.CupertinoColors
+import io.github.kalist28.cupertino.theme.Gray
+import io.github.kalist28.cupertino.theme.LocalColorScheme
+import io.github.kalist28.cupertino.theme.LocalShapes
+import io.github.kalist28.cupertino.theme.LocalTypography
+import io.github.kalist28.cupertino.theme.Shapes
+import io.github.kalist28.cupertino.theme.Typography
+import io.github.kalist28.cupertino.theme.darkColorScheme
+import io.github.kalist28.cupertino.theme.lightColorScheme
 
 @OptIn(InternalCupertinoApi::class, ExperimentalCupertinoApi::class)
 @Composable

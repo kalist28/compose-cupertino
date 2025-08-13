@@ -38,7 +38,7 @@ import androidx.compose.ui.util.fastSumBy
 import com.slapps.cupertino.CupertinoHorizontalDivider
 import com.slapps.cupertino.CupertinoSurface
 import com.slapps.cupertino.ExperimentalCupertinoApi
-import com.slapps.cupertino.theme.CupertinoTheme
+import io.github.kalist28.cupertino.theme.CupertinoTheme
 
 /**
  * iOS-like list section.

@@ -58,7 +58,7 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.slapps.cupertino.LocalContentColor
+import io.github.kalist28.cupertino.LocalContentColor
 import com.slapps.cupertino.CupertinoButtonTokens
 import com.slapps.cupertino.CupertinoDatePicker
 import com.slapps.cupertino.CupertinoDatePickerDefaults
@@ -81,11 +81,11 @@ import com.slapps.cupertino.DatePickerStyle
 import com.slapps.cupertino.ExperimentalCupertinoApi
 import com.slapps.cupertino.ProvideTextStyle
 import com.slapps.cupertino.copy
-import com.slapps.cupertino.cupertinoTween
+import io.github.kalist28.cupertino.cupertinoTween
 import com.slapps.cupertino.icons.CupertinoIcons
 import com.slapps.cupertino.icons.outlined.ChevronDown
 import com.slapps.cupertino.icons.outlined.ChevronUp
-import com.slapps.cupertino.theme.CupertinoTheme
+import io.github.kalist28.cupertino.theme.CupertinoTheme
 import com.slapps.cupertino.toStringWithLeadingZero
 import com.slapps.cupertino.defaultLocale
 

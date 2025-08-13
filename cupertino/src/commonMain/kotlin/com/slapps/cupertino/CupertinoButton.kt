@@ -53,11 +53,11 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.dp
 import com.slapps.cupertino.CupertinoButtonDefaults.filledButtonColors
 import com.slapps.cupertino.CupertinoButtonDefaults.plainButtonColors
-import com.slapps.cupertino.theme.CupertinoColors
-import com.slapps.cupertino.theme.CupertinoTheme
-import com.slapps.cupertino.theme.DefaultAlpha
-import com.slapps.cupertino.theme.Shapes
-import com.slapps.cupertino.theme.Typography
+import io.github.kalist28.cupertino.theme.CupertinoColors
+import io.github.kalist28.cupertino.theme.CupertinoTheme
+import io.github.kalist28.cupertino.theme.DefaultAlpha
+import io.github.kalist28.cupertino.theme.Shapes
+import io.github.kalist28.cupertino.theme.Typography
 
 enum class CupertinoButtonSize(
     val shape: (Shapes) -> Shape,

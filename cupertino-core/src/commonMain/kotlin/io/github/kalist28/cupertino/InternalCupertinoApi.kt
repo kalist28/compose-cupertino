@@ -15,10 +15,9 @@
  * limitations under the License.
  */
 
-package com.slapps.cupertino
 
-import androidx.compose.runtime.Composable
 
-@Composable
-@InternalCupertinoApi
-expect fun SystemBarAppearance(dark: Boolean)
+package io.github.kalist28.cupertino
+
+@RequiresOptIn("This is internal api used by cupertino modules")
+annotation class InternalCupertinoApi

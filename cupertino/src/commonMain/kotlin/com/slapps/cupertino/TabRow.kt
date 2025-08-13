@@ -104,7 +104,7 @@ import kotlinx.coroutines.launch
  * @param containerColor the color used for the background of this tab row. Use [Color.Transparent]
  * to have no color.
  * @param contentColor the preferred color for content inside this tab row. Defaults to either the
- * matching content color for [containerColor], or to the current [LocalContentColor] if
+ * matching content color for [containerColor], or to the current [io.github.kalist28.cupertino.LocalContentColor] if
  * [containerColor] is not a color from the theme.
  * @param indicator the indicator that represents which tab is currently selected. By default this
  * will be a [TabRowDefaults.Indicator], using a [TabRowDefaults.tabIndicatorOffset] modifier to

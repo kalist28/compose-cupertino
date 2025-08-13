@@ -35,7 +35,7 @@ import androidx.compose.ui.graphics.takeOrElse
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.slapps.cupertino.theme.CupertinoTheme
+import io.github.kalist28.cupertino.theme.CupertinoTheme
 
 internal val LocalSeparatorColor = compositionLocalOf {
     Color.Unspecified

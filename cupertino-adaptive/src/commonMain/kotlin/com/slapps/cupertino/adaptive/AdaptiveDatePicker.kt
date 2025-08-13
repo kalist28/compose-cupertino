@@ -45,7 +45,7 @@ import com.slapps.cupertino.CupertinoDatePicker
 import com.slapps.cupertino.CupertinoDatePickerState
 import com.slapps.cupertino.DatePickerStyle
 import com.slapps.cupertino.ExperimentalCupertinoApi
-import com.slapps.cupertino.InternalCupertinoApi
+import io.github.kalist28.cupertino.InternalCupertinoApi
 import com.slapps.cupertino.LocalContainerColor
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.flow.filterNotNull

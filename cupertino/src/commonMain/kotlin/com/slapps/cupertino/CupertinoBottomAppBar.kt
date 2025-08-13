@@ -34,7 +34,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import com.slapps.cupertino.section.CupertinoSectionDefaults
-import com.slapps.cupertino.theme.CupertinoTheme
+import io.github.kalist28.cupertino.theme.CupertinoTheme
 
 @ExperimentalCupertinoApi
 @Composable

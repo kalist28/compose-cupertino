@@ -41,10 +41,11 @@ import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.role
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.dp
+import io.github.kalist28.cupertino.LocalContentColor
 
 /**
  * A Material Design icon component that draws [imageVector] using [tint], with a default value
- * of [LocalContentColor]. If [imageVector] has no intrinsic size, this component will use the
+ * of [io.github.kalist28.cupertino.LocalContentColor]. If [imageVector] has no intrinsic size, this component will use the
  * recommended default size. Icon is an opinionated component designed to be used with single-color
  * icons so that they can be tinted correctly for the component they are placed in. For multicolored
  * icons and icons that should not be tinted, use [Color.Unspecified] for [tint]. For generic images
